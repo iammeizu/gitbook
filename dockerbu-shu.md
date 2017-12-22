@@ -24,5 +24,27 @@ docker pull lanrenxu/devpi-shixu:v0.1
 docker run -d -p 3141:3141 devpi-shixu:v1
 ```
 
+#### 用户手册 {#用户手册}
 
+服务器搭建完成以后
+
+用户需要修改~/.pip/pip.conf文件
+
+把其中localhost改成服务器ip地址，端口号如果有修改也对应修改
+
+```
+[global]
+index-url = http://localhost:3141/root/pypi/
+
+```
+
+修改完成之后就可以执行下面指令直接下载包啦！
+
+```
+pip install pytest
+py.test --version
+
+```
+
+如果成功查看到了版本号，Bingo!
 
