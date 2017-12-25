@@ -22,6 +22,10 @@ devpi-server --version
 
 --start是后台运行，Docker容器后台运行，必须有一个前台进程。如果都以后台模式运行，容器会闪退！
 
+--host 0.0.0.0 才能让局域网内其他ip访问，这点在构建镜像时已经写好，无需重复设置
+
+--port xxxx可以修改端口号为xxxx
+
 ```
 devpi-server --start --init
 ```
@@ -75,7 +79,7 @@ pip install -q -U devpi-web
 pip search --index http://localhost:3141/root/pypi/ devpi-client
 ```
 
-定制devpi web首页，修改site-packages/devpi\_web/templates/root.pt
+如需定制devpi web首页，修改site-packages/devpi\_web/templates/root.pt
 
 #### 安装devpi-client
 
