@@ -8,11 +8,11 @@
 * nginx：著名的Web服务器
 * docker：开源的应用容器引擎
 
-至于为什么选择devpi，参见[https://www.gitbook.com/book/lanrenxu/-pip/details](https://www.gitbook.com/book/lanrenxu/-pip/details)
+初次部署devpi，可以从Docker部署开始，然后熟悉各种常用指令
 
-nginx用来反向代理，实现负载均衡，该功能非必选
+nginx用来反向代理，实现负载均衡，该功能非必选，建议先部署一台服务器观察流量再做决定
 
-docker用来更方便的将整个环境部署任意一台机器上，
+docker用来更方便的将整个环境部署任意一台机器上
 
 本文将从上述三个方面展开具体介绍
 
