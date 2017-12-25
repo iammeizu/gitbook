@@ -20,6 +20,8 @@ devpi-server --version
 
 开启服务器进程（init只有在第一次启动时需要）
 
+--start是后台运行，Docker容器后台运行，必须有一个前台进程。如果都以后台模式运行，容器会闪退！
+
 ```
 devpi-server --start --init
 ```
