@@ -6,7 +6,7 @@ PyPI是Python程序员必备工具，架设私有PyPI可以更加方便快捷地
 
 是一个体积小、使用简单、功能较少、年代久远的解决方案
 
-搭建过程参见此链接[https://pypi.python.org/pypi/pypiserver](https://pypi.python.org/pypi/pypiserver)
+详情参见此链接[https://pypi.python.org/pypi/pypiserver](https://pypi.python.org/pypi/pypiserver)
 
 功能：
 
@@ -15,9 +15,9 @@ PyPI是Python程序员必备工具，架设私有PyPI可以更加方便快捷地
 
 ## devpi
 
-是一个功能比较完善、体积适中、起步于2013年的解决方案
+是一个功能比较完善、体积适中、起步于2013年，到2017年末仍在不断更新的解决方案
 
-搭建过程参见此链接[https://devpi.net/docs/devpi/devpi/4.3/+d/index.html](https://devpi.net/docs/devpi/devpi/4.3/+d/index.html)
+详情参见此链接[https://devpi.net/docs/devpi/devpi/4.3/+d/index.html](https://devpi.net/docs/devpi/devpi/4.3/+d/index.html)
 
 1. PyPI代理镜像
 2. 单元测试
