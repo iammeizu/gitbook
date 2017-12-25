@@ -30,6 +30,8 @@ docker run -d -p 3141:3141 devpi-shixu:v1
 
 有的时候通过devpi use指令没有成功修改pip源地址
 
+devpi use指令参见下一章节
+
 那么用户需要手动修改~/.pip/pip.conf文件
 
 把其中localhost改成服务器ip地址，端口号如果有修改也对应修改
